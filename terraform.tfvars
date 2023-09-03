@@ -1,0 +1,16 @@
+project_id = "formlabs-377008"
+//credentials_file_path = "./service-account-credentials.json"
+service_account    = "my-project@formlabs-377008.iam.gserviceaccount.com"
+region             = "us-central1"
+main_zone          = "us-central1-b"
+cluster_node_zones = ["us-central1-b"]
+//bastion_name       = "app-cluster"
+network_name = "kubernetes-cluster"
+subnet_name  = "gke-subnetwork"
+//cluster_master_ip_cidr_range   = "10.100.100.0/28"
+//cluster_pods_ip_cidr_range     = "10.101.0.0/16"
+//cluster_services_ip_cidr_range = "10.102.0.0/16"
+master_ipv4_cidr_block   = "10.100.100.0/28"
+pods_ipv4_cidr_block     = "10.101.0.0/16"
+services_ipv4_cidr_block = "10.102.0.0/16"
+
